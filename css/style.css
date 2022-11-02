@@ -42,6 +42,8 @@ body{
     margin: 0%;
     position: relative;
     overflow: hidden;
+    background-color: #232f3e;
+    /*background-image: linear-gradient(to right, #131921, #232f3e);*/
   }
   header .about img {
     width: 50%;
@@ -116,7 +118,23 @@ body .websites .website_1{
   margin-bottom: 30px;
   padding: 0px;
   float: left;
-  box-shadow: 10px 5px 5px black;
+  x-shadow: 10px 5px 5px black;
+}
+body .websites .website_1 a{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+body .websites .website_1 img{
+  width: 75px;
+  height: auto;
+  float: center;
+  padding-top: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 body .websites .website_2{
   display: inline-grid;
@@ -127,6 +145,24 @@ body .websites .website_2{
   float: center;
   box-shadow: 10px 5px 5px black;
 }
+body .websites .website_2 a{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-top: 5px;
+}
+body .websites .website_2 img{
+  width: 75px;
+  height: auto;
+  float: center;
+  padding-top: 0px;
+  margin-top: -5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
 body .websites .website_3{
   display: inline-grid;
   background-color: #232f3e;
@@ -135,4 +171,20 @@ body .websites .website_3{
   padding: 0px;
   float: right;
   box-shadow: 10px 5px 5px black;
+}
+body .websites .website_3 a{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+body .websites .website_3 img{
+  width: 75px;
+  height: auto;
+  float: center;
+  padding-top: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
 }
