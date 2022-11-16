@@ -22,7 +22,7 @@ body{
     float: center;
   }
   header .top .logo h1 {
-    font-size: 25px;
+    font-size: 23px;
     color: #fdfdfd;
     text-align: center;
     padding-top: 5%;
@@ -118,7 +118,7 @@ body .websites .website_1{
   margin-bottom: 30px;
   padding: 0px;
   float: left;
-  x-shadow: 10px 5px 5px black;
+  box-shadow: 10px 5px 5px black;
 }
 body .websites .website_1 a{
   font-size: 50px;
@@ -130,11 +130,12 @@ body .websites .website_1 img{
   width: 75px;
   height: auto;
   float: center;
-  padding-top: 5px;
+  padding-top: 6px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+  background-color: #232f3e;
 }
 body .websites .website_2{
   display: inline-grid;
@@ -157,7 +158,7 @@ body .websites .website_2 img{
   height: auto;
   float: center;
   padding-top: 0px;
-  margin-top: -5px;
+  margin-top: 3px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -187,4 +188,63 @@ body .websites .website_3 img{
   margin-left: auto;
   margin-right: auto;
   width: 35%;
+}
+
+body .reviews_title{
+  background-color: rgb(47,64,64);
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .reviews_title h1{
+  color: white;
+  font-size: 50px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0px;
+  padding-top: 20px;
+}
+body .reviews {
+  display: inline-grid;
+  background-color: rgb(47,64,64);
+  width: 100%;
+  height: auto;
+  padding-top: auto;
+  margin-top: auto;
+  font-size: 20px;
+  color: #fdfdfd;
+  text-align: center;
+  position: relative;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+  column-gap: 6%;
+}
+body .reviews .reviews_1{
+  background-color: #232f3e;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: auto;
+  float: right;
+  box-shadow: 10px 5px 5px black;
+}
+body .reviews .reviews_2{
+  background-color: #232f3e;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: auto;
+  float: right;
+  box-shadow: 10px 5px 5px black;
+}
+body .reviews .reviews_3{
+  background-color: #232f3e;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: auto;
+  float: right;
+  box-shadow: 10px 5px 5px black;
 }
