@@ -58,7 +58,6 @@ body{
     height: 100%;
     position: absolute;
     float: right;
-    display: inline-block;
     overflow: hidden;
   }
   header .about .about_text h1{
